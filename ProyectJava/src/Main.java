@@ -8,7 +8,7 @@ public class Main {
         int numero1=50;
         int none=numero*numero1;
 
-        System.out.println("Hola Mundo");
+        System.out.println("Hola mm Mundo");
         System.out.println(none);
         System.out.println(nombre+cosa+trabajos);
     }

@@ -7,6 +7,9 @@ public class Main {
         int numero=40;
         int numero1=50;
         int none=numero*numero1;
+        int pepe=70;
+        int carro=pepe*none-numero1;
+        System.out.println(carro);
 
         System.out.println("Hola Mmmmundo");
         System.out.println(none);

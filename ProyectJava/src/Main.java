@@ -11,10 +11,12 @@ public class Main {
         int carro=pepe*none-numero1;
         System.out.println(carro);
         String nombress ="casass";
+
         System.out.println(nombress);
         System.out.println("Hola Mmmmundo");
         System.out.println(none);
         System.out.println(nombre+cosa+trabajos);
+        System.out.println("el" +" "+ cosa+" "+"vale"+ none);
 
     }
 

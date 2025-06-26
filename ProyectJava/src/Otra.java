@@ -1,6 +1,4 @@
 
-package ProyectJava.src.Otra;
-
 public class Otra {
 	public static void main(String[] args) {
 

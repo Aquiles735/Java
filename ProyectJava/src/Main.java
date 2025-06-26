@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class Main {
@@ -23,13 +24,15 @@ public class Main {
 
         System.out.println(nombre + cosa + trabajos);   */
 
+        //declaracion de variables
+        float pago,quincena,descuento,totalRecibido;
 
         Scanner teclado = new Scanner(System.in);
-        String pago = teclado.nextLine();
-
-        float quincena=Float.parseFloat(pago);
-        float descuento=0.02f;
-        float totalRecibido=quincena * descuento;
+            pago = teclado.nextFloat();
+            quincena=teclado.nextFloat();
+            descuento=0.02f;
+            totalRecibido=quincena * pago / descuento;
+        System.out.println("total recibido= ");
         System.out.println(totalRecibido);
 
     }

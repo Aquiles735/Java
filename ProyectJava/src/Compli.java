@@ -12,8 +12,8 @@ public class Compli {
         cantidad = teclado.nextInt();
 
         System.out.println("Coloca la cantidad de USD que utilizará en la compra:  ");
-        Scanner teclado2 = new Scanner(System.in);
-        dinero = teclado2.nextDouble();
+        teclado=new Scanner(System.in);//asi se puede usar de nuevo "reclado"
+        dinero = teclado.nextDouble();
 
         cant1 = (cantidad < 5);
         cant2 = (cantidad >= 5 && cantidad <= 15);

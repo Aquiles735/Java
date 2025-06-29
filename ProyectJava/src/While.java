@@ -4,13 +4,13 @@ public class While {
     public static void main(String[] args) {
 
 //While con ejemplo de contador.
-     /*
-     int contador=0;
+
+     /* int contador=0;
         while ( contador <10) {
             System.out.println("Estoy por la vuelta N " + contador);
             contador++;
-        }
-            */
+        }*/
+
 
 
 

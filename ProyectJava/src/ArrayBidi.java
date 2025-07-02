@@ -6,7 +6,7 @@ public class ArrayBidi {
 int [] [] matriz =new  int[3][4];
        //3 filas
        //4 columnas
-
+        System.out.println("Introducir los valores de la matriz:  " +"i"+ " X "+" j:");
         Scanner teclado=new Scanner(System.in);
         //for filas y for columnas
         for (int i=0;i<3;i++){
@@ -15,9 +15,11 @@ int [] [] matriz =new  int[3][4];
                 matriz[i][j]=teclado.nextInt();
             }
 
-            }
+            }System.out.println("Se mostrará la matriz:   ");
         for ( int i =0;i<matriz.length;i++){
             for ( int j =0;j<matriz.length;j++) {
+
+
                 System.out.println("Fila:  "+i+ " ,Columna: "+j+ "  valor:  "+ matriz[i][j]);
             }
             }

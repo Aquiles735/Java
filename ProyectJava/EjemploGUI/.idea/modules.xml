@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/EjemploGUI.iml" filepath="$PROJECT_DIR$/EjemploGUI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/logica/logica.iml" filepath="$PROJECT_DIR$/logica/logica.iml" />
+    </modules>
+  </component>
+</project>

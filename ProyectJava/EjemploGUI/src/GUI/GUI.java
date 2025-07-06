@@ -22,7 +22,8 @@ public class GUI extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
         setContentPane(panelContenido);
-
+        //Hacer No editable el txtMensajed1(segundo cuadro de texto)
+        txtMensajed1.setEditable(false);
 
         borrarButton.addActionListener(new ActionListener() {
             @Override
